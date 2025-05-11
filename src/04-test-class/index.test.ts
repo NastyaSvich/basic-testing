@@ -9,6 +9,7 @@ describe('BankAccount', () => {
   afterEach(() => {
     jest.restoreAllMocks();
   });
+
   test('should create account with initial balance', () => {
     const balance = 100;
     const account = getBankAccount(balance);
